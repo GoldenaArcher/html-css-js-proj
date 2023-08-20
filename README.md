@@ -2,89 +2,91 @@
 
 预计是会跟着教程做完 53 个小项目+10 个大型的 Responsive 项目，预览地址在<http://www.goldenaarcher.com/html-css-js-proj/>，git 地址：<https://github.com/GoldenaArcher/html-css-js-proj>
 
-实用性有加备注，可以按需索取，如果有些效果不一样……十有八九可能是因为 google font 的问题
+实用性有加备注，可以按需索取，如果有些效果不一样……十有八九可能是因为 google font 的问题。主要是以 CSS 实现为主，不过有些需要互动的部分会借助 JS 实现
 
-gif 截图的话，github 上是全的，csdn 上放多少看我有多勤劳了（x
+gif 截图的话，尽量放全……
+
+很神奇的事情就是，github 上引用 CSDN 上的图片外链，有几张图片居然显示过大（挠头），然后 READEME 上就打不开……
 
 ## Small Projects
 
-1. [signup form](./proj1/index.html)
+1.  [signup form](./proj1/index.html)
 
-   Animation & Layout & transition，日常开发可能会用到
+    Animation & Layout & transition，日常开发可能会用到
 
-   ![sign up form](img/sign-up-form.gif)
+    ![sign up form](img/sign-up-form.gif)
 
-2. [nike product card](./proj2/index.html)
+2.  [nike product card](./proj2/index.html)
 
-   Animation & Layout & transition，专项化 2C 项目非常可能会用到
+    Animation & Layout & transition，专项化 2C 项目非常可能会用到
 
-   ![product card](img/product-card.gif)
+    ![product card](img/product-card.gif)
 
-3. [dark mode](./proj3/index.html)
+3.  [dark mode](./proj3/index.html)
 
-   Layout & JS (toggle class)，日常开发可能会用到
+    Layout & JS (toggle class)，日常开发可能会用到
 
-   卡的布局确实挺有趣的，除了背景图片（地图）和芯片之外，其他全都使用 HTML+CSS 完成的，完成度还蛮高的……
+    卡的布局确实挺有趣的，除了背景图片（地图）和芯片之外，其他全都使用 HTML+CSS 完成的，完成度还蛮高的……
 
-   所以说以后都不用自己 p 信用卡了是吧，想要东方、高达啥的，换个背景图就好了……？
+    所以说以后都不用自己 p 信用卡了是吧，想要东方、高达啥的，换个背景图就好了……？
 
-   ![dark mode](img/dark-mode.gif)
+    ![dark mode](img/dark-mode.gif)
 
-4. [3D swing](./proj4/index.html)
+4.  [3D swing](./proj4/index.html)
 
-   3D & layout
+    3D & layout
 
-   炫技之作，看看就好，平常用不太到，特别想展示个人能力的可以作 portfolio 的时候试着写个类似的 3D 玩玩?
+    炫技之作，看看就好，平常用不太到，特别想展示个人能力的可以作 portfolio 的时候试着写个类似的 3D 玩玩?
 
-   丢帧是软件问题，一边存一边用 live server 然后就一直重载页面……
+    丢帧是软件问题，一边存一边用 live server 然后就一直重载页面……
 
-   ![3d swing](img/swing.gif)
+    ![3d swing](img/swing.gif)
 
-5. [3D Menu](./proj5/index.html)
+5.  [3D Menu](./proj5/index.html)
 
-   3D & layout & transition
+    3D & layout & transition
 
-   个人项目可能用得到
+    个人项目可能用得到
 
-   ![3d menu](img/3d-menu.gif)
+    ![3d menu](img/3d-menu.gif)
 
-6. [Landing Page](./proj6/index.html)
+6.  [Landing Page](./proj6/index.html)
 
-   3D & layout & transition
+    3D & layout & transition
 
-   个人项目可能用得到
+    个人项目可能用得到
 
-   丢帧是软件问题，一边存一边用 live server 然后就一直重载页面……
+    丢帧是软件问题，一边存一边用 live server 然后就一直重载页面……
 
-   ![3d box](img/3d-landing.gif)
+    ![3d box](img/3d-landing.gif)
 
-7. [3D Button](./proj7/index.html)
+7.  [3D Button](./proj7/index.html)
 
-   `::before` & `::after`
+    `::before` & `::after`
 
-   个人项目可能用得到
+    个人项目可能用得到
 
-   ![3d button](img/3d-button.gif)
+    ![3d button](img/3d-button.gif)
 
-8. [Animated Landing Page](./proj8/index.html)
+8.  [Animated Landing Page](./proj8/index.html)
 
-   日常开发可能会用到，纯 CSS 实现
+    日常开发可能会用到，纯 CSS 实现
 
-   主要用的是 CSS 中的 `keyframes` 实现
+    主要用的是 CSS 中的 `keyframes` 实现
 
-   ![animated landing page](img/animated-landing.gif)
+    ![animated landing page](img/animated-landing.gif)
 
-9. [Landing Page with Modal](./proj9/index.html)
+9.  [Landing Page with Modal](./proj9/index.html)
 
-   日常开发可能会用到
+    日常开发可能会用到
 
-   如果是用 React/Vue/Angular 这种的话，应该已经有不少的 npm package 可以做相似的功能了，不过如果业务场景比较简单，想纯手写的话，也可以自己实现。
+    如果是用 React/Vue/Angular 这种的话，应该已经有不少的 npm package 可以做相似的功能了，不过如果业务场景比较简单，想纯手写的话，也可以自己实现。
 
-   React 用 portal 传送 modal 会比较方便……如果在组件内渲染一来会有 z-index 的问题，而来语义化不明确
+    React 用 portal 传送 modal 会比较方便……如果在组件内渲染一来会有 z-index 的问题，而来语义化不明确
 
-   ![modal form](img/modal-form.gif)
+    ![modal form](img/modal-form.gif)
 
-   portal 案例学习：[[React 进阶系列] React Portal 案例学习](https://blog.csdn.net/weixin_42938619/article/details/123952981)
+    portal 案例学习：[[React 进阶系列] React Portal 案例学习](https://blog.csdn.net/weixin_42938619/article/details/123952981)
 
 10. [3D Room](./proj10/index.html)
 
@@ -170,3 +172,52 @@ gif 截图的话，github 上是全的，csdn 上放多少看我有多勤劳了�
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/0c98d751c40545809adf89c62ff30541.png)
 
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/28b27649d4de486681b79c6a4916b2ad.png)
+
+14. [Bicycle](./proj14/index.html)
+
+    日常开发用不到，不过用来学习挺好的，所有的样式和动画全都是通过 CSS 实现的……这个几何的实现能力太强了啊，而且一行 JS 没写，真秀了我一脸……
+
+    ![bicycle](img/bicycle.gif)
+
+    用法比较多的还是使用 `::before` 和 `::after`，主要是定位方便，还不用多创建额外的 div，全部的 HTML 如下：
+
+    ```html
+    <div class="bicycle">
+      <div class="wheel front-wheel"></div>
+      <div class="front-fork">
+        <div class="tube"></div>
+      </div>
+      <div class="handlebars"></div>
+      <div class="crossbar"></div>
+      <div class="frame-1"></div>
+      <div class="frame-2"></div>
+      <div class="seat-tube">
+        <div class="seat"></div>
+      </div>
+      <div class="crank"></div>
+      <div class="chain"></div>
+      <div class="pedals"></div>
+      <div class="back-fork"></div>
+      <div class="wheel back-wheel"></div>
+    </div>
+    ```
+
+15. [Hamburger Menu](./proj15/index.html)
+
+    日常开发可能用到
+
+    ![navbar](img/navbar.gif)
+
+    另一个学 SCSS 时候的 navbar 笔记在这里：
+
+    [SASS 学习笔记](https://blog.csdn.net/weixin_42938619/article/details/132310288)
+
+    效果如下：
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/57f816eb1d7c4cadb36b62fb46689c03.gif#pic_center)
+
+16. [Checkbox](./proj16/index.html)
+
+    和 toggle button 一样，如果有 UI 开发的需求会用得到
+
+    ![checkbox](img/checkbox.gif)
