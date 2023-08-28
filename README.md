@@ -511,3 +511,274 @@ gif 截图的话，尽量放全……
     最后，写到一半突然注意到这个：
 
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/fa0ce6982b6c47b1a8fbba8d600eb6bb.png)
+
+33. [profile card](./proj33/index.html)
+
+    效果如下：
+
+    ![profile-card](img/profile-card.gif)
+
+    和之前的一些 UI 库差不太多，实现部分也写了挺多遍的了
+
+34. [countdown](./proj34/index.html)
+
+    ![countdown](img/countdown.gif)
+
+    没什么特别复杂的 CSS 逻辑，这里主要用的是 JS 去控制时间的变化，然后将 `Days` 这些字添加到 attributes 里，CSS 中通过 `attr` 获得即可。
+
+35. [calendar](./proj35/index.html)
+
+    ![calendar](img/calendar.gif)
+
+    CSS 上也没有什么特别的难点，一般来说除非自己要写对应的 UI 库，否则也不太可能用得上这个。
+
+    JS 实现上挺有趣的，获取当月日历这个没什么大问题，获取上个月的日历是通过获取上个月最后一天在星期几，然后做一个 `i--` 的循环。下个月则是获取下个月第一天在星期几，做一个 `i++` 实现。
+
+36. [ball animation](./proj36/index.html)
+
+    ![在这里插入图片描述](img/ball-anim.gif)
+
+    主要也是对 animation 的学习，小球的形变是通过 `scale` 实现的
+
+37. [Form with Validation](./proj37/index.html)
+
+    ![form with validation](img/form-with-validation.gif)
+
+    这个实际应用还挺多的，特别如果写的是 2B 项目，很多情况下就是填写表格和表单……
+
+    这个主要还是依靠 JS 实现的，关于 CSS 的控制倒是以前没有想过，他的写法是直接把 `error` 这个 class 加到了整个表单上，之前用 React 写都是直接通过单独的 input 控制。
+
+    顺便做了 responsive，大屏幕的效果是这样的：
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/cde6558be0564d99920cdffb6c240eac.png)
+
+38. [Social Icons Slideshow](./proj38/index.html)
+
+    和之前做的 slideshow 差不多：
+
+    ![slideshow](img/social-media-slideshow.gif)
+
+    这里用了一个之前没用过的 CSS：`filter: brightness(1.5);`，可以用来控制元素的明暗。
+
+    icon 的出现和消失则是使用 CSS 进行控制的，没有什么特别大的难点。
+
+39. [Circle Progress Bar](./proj39/index.html)
+
+    ![progress bar](img/progressbar.gif)
+
+    progress bar 的实现还是挺有意思的，首先它分成 3 个部分，两个半圆和一个遮罩。在第一个半圆完成旋转的时候，遮罩就会消失，同时让第二个半圆完成渲染，图示如下：
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/b605665020714670b1e49c1bd665a309.gif#pic_center)
+
+    其中橙色代表的是遮罩，蓝色是第一个半圆，绿色是第二个半圆。二者的移动轨迹是重叠的，这也就是为什么刚开始不会看到绿色的移动轨迹。
+
+    实现了 `overflow: hidden` 和修改完颜色后的效果：
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/010cb57a32634bd48e5b259c29611c61.gif#pic_center)
+
+    完成了中心部分的填充后：
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/5086c707cb5c4501a6225d8308004906.gif#pic_center)
+
+40. [Ripple Button](./proj40/index.html)
+
+    ![ripple](img/ripple.gif)
+
+    这个特效的实现也挺有意思的，主要是通过 JS 的 `mouseenter` 和 `mouseleave`。在 `mouseenter` 的时候，获取当前鼠标所在的位置，创建一个新的背景颜色，过渡使用 animation 完成。在 `mouseleave` 的时候，将该背景颜色从 DOM 中移除。
+
+41. [Loader](./proj41/index.html)
+
+    这里做了 3 个 loader 的特效，实用性都是有的，不过具体也看 UI 风格：
+
+    ![loader](img/loader1.gif)
+
+    ![loader](img/loader2.gif)
+
+    ![loader](img/loader3.gif)
+
+    主要都是使用 animation+scale+animation-delay+opacity 的变化
+
+42. [又一个 navbar](./proj42/index.html)
+
+    ![navbar another](img/navbar-another.gif)
+
+    之前写过差不多的吧，还有其实我觉得这个特效没有特别好看，过渡还是有点奇怪……
+
+43. [又一个 landing page](./proj43/index.html)
+
+    ![landing animated](img/landing-anim.gif)
+
+    同样也是二段式的 animation，这里背景的变化用了 clip-path，之前也有介绍过，现在的网站可以拖拽最后获取 clip-path 的角度。
+
+44. [clock](./proj44/index.html)
+
+    ![clock](img/clock.gif)
+
+    主要靠 JS 调整时间，其他的 CSS 没什么难度
+
+45. [Jumping Square](./proj45/index.html)
+
+    ![jumping square](img/jumping-square.gif)
+
+    形变的特效是使用 `border-radius` + `translateY` 做出来的，所以会看到两边拉的细长，但是中间还是粗的效果，其实这违反物理了……嘛……不过不是用渲染引擎做出来的就算了
+
+    square 的效果主要就是 `translateY` + `rotateZ` 做的，两边的支柱也差不多
+
+46. [Search Bar](./proj46/index.html)
+
+    ![search bar](img/search-bar.gif)
+
+    也是比较简单的 animation，稍稍有点花哨，一般来说水平出现就行了吧
+
+47. [3D Form](./proj47/index.html)
+
+    ![3d form](img/3d-form.gif)
+
+    这个特效属于是 3D card 的进阶版了
+
+48. [invisible card](./proj48/index.html)
+
+    ![invisible card](img/invisible-card.gif)
+
+    之前写的也挺多了，主要就是用位移(`position: absolute` + `overflow: hidden` + `top` 的变化) 和 transition 结合。这里的卡片依旧使用 `border` 和 `box-shadow` 实现
+
+49. [signup form](./proj49/index.html)
+
+    ![sign up form](img/signup-form.gif)
+
+    这里用的技巧之前也基本都写过了，比较讨巧的还是用 `checkbox` 实现 `radio button` 这个功能，不过之前也洗过了，这里不多赘述
+
+    很多转换是用 JS 实现的，这也就是为什么这个页面相对而言能够实现的比较复杂的原因。
+
+50. [profile cards](./proj50/index.html)
+
+    ![profile cards](img/profile-cards.gif)
+
+    之前做了 profile card，这里大致的布局设计没什么特别大的差别
+
+    按钮的特效用 `@keyframes` 的 animation 做的，主要也是使用 `scale` + `rotateZ` 的效果实现晃动
+
+    打字的特效是通过 JS 实现的，JS 代码如下：
+
+    ```js
+    const heading = 'Please Meet Our Team';
+    let i = 0;
+
+    const typing = () => {
+      if (i < heading.length) {
+        document.querySelector('.heading').innerHTML += heading.charAt(i);
+        i++;
+
+        setTimeout(typing, 150);
+      }
+    };
+
+    typing();
+    ```
+
+    跳动的光标也是使用 CSS animation 实现的，定位用的是 `after` 实现，这样总是能够定位到 heading 的末端
+
+    有一个 CSS attribute 还挺重要的，`white-space: pre-wrap`，如果没有这个 attribute 的话，光标的位置会到处乱跳，尤其是当浏览器觉得 heading 的内容可以被 wrap 的时候
+
+    光标跳动的效果也是通过 animation+background-color 的修改实现，不断从 `#fff` 到 `transparent` 的跳动就可以实现忽明忽暗的特效
+
+51. [slideshow cities](./proj51/index.html)
+
+    ![slideshow](img/slideshow-cities.gif)
+
+    button 用了 3D 环境，slideshow 之前写过，首页闪现的效果我以为用 `opacity` 实现的，不过没想到是用 `animation` 做的……还是用 `translateX` 移动黑屏部分
+
+    下面按钮的特效一样，不过是黑屏换成白屏
+
+    之前的 slideshow 用的是 JS，不过这里用的是 CSS 的 animation，也挺妙的，可以一看，animation 部分的代码：
+
+    ```css
+    @keyframes slideshow {
+      0% {
+        left: 0;
+      }
+      10% {
+        left: 0;
+      }
+      15% {
+        left: -100%;
+      }
+      25% {
+        left: -100%;
+      }
+      30% {
+        left: -200%;
+      }
+      40% {
+        left: -200%;
+      }
+      45% {
+        left: -300%;
+      }
+      55% {
+        left: -300%;
+      }
+      60% {
+        left: -200%;
+      }
+      70% {
+        left: -200%;
+      }
+      75% {
+        left: -100%;
+      }
+      85% {
+        left: -100%;
+      }
+      90% {
+        left: 0;
+      }
+    }
+    ```
+
+52. [3d hamburger menu](./proj52/index.html)
+
+    这个特效有点多，简单的就是之前写的几个整合，包括：
+
+    - 3d button
+    - hamburger menu
+    - 3d card
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/35045e2643cf45fa8489f3868f7ab430.png)
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/30f5076c2c994cd6947e88124782ab41.png)
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/e19a711f6a8c44f787b5f71734aae6aa.png)
+
+53. [3d cube](./proj53/index.html)
+
+    ![3d cube](img/3d-cube.gif)
+
+    我本来以为这里切图了，后来发现没有，用的是 `background` 的一个 attributes，也就是 `backgournd-position`，CSS 如下：
+
+    ```css
+    .cube-1 .front {
+      background: url(images/slide-img-1.jpg) no-repeat 50% 0;
+      background-size: cover;
+    }
+
+    .cube-2 .front {
+      background: url(images/slide-img-1.jpg) no-repeat 50% -7vw;
+      background-size: cover;
+    }
+
+    .cube-3 .front {
+      background: url(images/slide-img-1.jpg) no-repeat 50% -14vw;
+      background-size: cover;
+    }
+    ```
+
+    MDN 上玩了一下 `backgournd-position` ：
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/520f15969acf4a5c86bcd60c8125d39d.png)
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/24c753a1254b4d6ca4a6b7b7bce62289.png)
+
+    ![在这里插入图片描述](https://img-blog.csdnimg.cn/06539ac0aaf649e69cf1c3f5a6583867.png)
+
+    其他的 3d 动画都和之前写的差不多了
