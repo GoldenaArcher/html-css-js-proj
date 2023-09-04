@@ -14,6 +14,11 @@ h1 {
   font-size: 3.2rem;
 }
 
+li {
+  font-size: 1.6rem;
+  height: 2rem;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -26,22 +31,17 @@ h1 {
   grid-template-columns: 1fr 1fr;
 }
 
-.small-proj li {
-  font-size: 1.6rem;
-  height: 2rem;
-}
-
-.small-proj li:nth-child(odd) {
+li:nth-child(odd) {
   animation: show-list-odd 1s forwards;
 }
 
-.small-proj li:nth-child(even) {
+li:nth-child(even) {
   animation: show-list-even 1s forwards;
 }
 
 @for $i from 1 through 53 {
-  .small-proj li:nth-child(#{$i}) {
-    animation-delay: 0.1s * math.floor($i / 2);
+  li:nth-child(#{$i}) {
+    animation-delay: 0.1s * math.floor(math.div($i, 2));
     opacity: 0;
   }
 }

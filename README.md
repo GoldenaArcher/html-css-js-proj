@@ -10,19 +10,19 @@ gif 截图的话，尽量放全……
 
 ## Small Projects
 
-1.  [signup form](./proj1/index.html)
+1.  [signup form](./small/proj1/index.html)
 
     Animation & Layout & transition，日常开发可能会用到
 
     ![sign up form](img/sign-up-form.gif)
 
-2.  [nike product card](./proj2/index.html)
+2.  [nike product card](./small/proj2/index.html)
 
     Animation & Layout & transition，专项化 2C 项目非常可能会用到
 
     ![product card](img/product-card.gif)
 
-3.  [dark mode](./proj3/index.html)
+3.  [dark mode](./small/proj3/index.html)
 
     Layout & JS (toggle class)，日常开发可能会用到
 
@@ -32,7 +32,7 @@ gif 截图的话，尽量放全……
 
     ![dark mode](img/dark-mode.gif)
 
-4.  [3D swing](./proj4/index.html)
+4.  [3D swing](./small/proj4/index.html)
 
     3D & layout
 
@@ -42,7 +42,7 @@ gif 截图的话，尽量放全……
 
     ![3d swing](img/swing.gif)
 
-5.  [3D Menu](./proj5/index.html)
+5.  [3D Menu](./small/proj5/index.html)
 
     3D & layout & transition
 
@@ -50,7 +50,7 @@ gif 截图的话，尽量放全……
 
     ![3d menu](img/3d-menu.gif)
 
-6.  [Landing Page](./proj6/index.html)
+6.  [Landing Page](./small/proj6/index.html)
 
     3D & layout & transition
 
@@ -60,7 +60,7 @@ gif 截图的话，尽量放全……
 
     ![3d box](img/3d-landing.gif)
 
-7.  [3D Button](./proj7/index.html)
+7.  [3D Button](./small/proj7/index.html)
 
     `::before` & `::after`
 
@@ -68,7 +68,7 @@ gif 截图的话，尽量放全……
 
     ![3d button](img/3d-button.gif)
 
-8.  [Animated Landing Page](./proj8/index.html)
+8.  [Animated Landing Page](./small/proj8/index.html)
 
     日常开发可能会用到，纯 CSS 实现
 
@@ -76,7 +76,7 @@ gif 截图的话，尽量放全……
 
     ![animated landing page](img/animated-landing.gif)
 
-9.  [Landing Page with Modal](./proj9/index.html)
+9.  [Landing Page with Modal](./small/proj9/index.html)
 
     日常开发可能会用到
 
@@ -88,7 +88,7 @@ gif 截图的话，尽量放全……
 
     portal 案例学习：[[React 进阶系列] React Portal 案例学习](https://blog.csdn.net/weixin_42938619/article/details/123952981)
 
-10. [3D Room](./proj10/index.html)
+10. [3D Room](./small/proj10/index.html)
 
     除非开发网页游戏，否则感觉用不太到……
 
@@ -131,7 +131,7 @@ gif 截图的话，尽量放全……
     );
     ```
 
-11. [Grid Gallery](./proj11/index.html)
+11. [Grid Gallery](./small/proj11/index.html)
 
     日常开发可能会用到
 
@@ -153,13 +153,13 @@ gif 截图的话，尽量放全……
 
     之前翻书时的 grid 相关笔记在：[精通 CSS 第 7 章学习笔记（下）](https://goldenaarcher.blog.csdn.net/article/details/116337852)
 
-12. [Toggle Button](./proj12/index.html)
+12. [Toggle Button](./small/proj12/index.html)
 
     日常开发可能会用到，取决于 UI 库的使用和需求，如果有 UI 库的使用，大概率是会覆盖这个。但是如果自己要实现 UI 库的话，可能会写类似的样式
 
     ![toggle](img/toggle.gif)
 
-13. [Product Card](./proj13/index.html)
+13. [Product Card](./small/proj13/index.html)
 
     日常开发可能会用到，这个和之前耐克的有点像，不过特效不太一样。不过日常开发中，这种 hover+scale 的效果用的还是挺多的，不仅是产品，很多 card 都有这种特效
 
@@ -173,7 +173,7 @@ gif 截图的话，尽量放全……
 
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/28b27649d4de486681b79c6a4916b2ad.png)
 
-14. [Bicycle](./proj14/index.html)
+14. [Bicycle](./small/proj14/index.html)
 
     日常开发用不到，不过用来学习挺好的，所有的样式和动画全都是通过 CSS 实现的……这个几何的实现能力太强了啊，而且一行 JS 没写，真秀了我一脸……
 
@@ -202,7 +202,7 @@ gif 截图的话，尽量放全……
     </div>
     ```
 
-15. [Hamburger Menu](./proj15/index.html)
+15. [Hamburger Menu](./small/proj15/index.html)
 
     日常开发可能用到
 
@@ -216,25 +216,25 @@ gif 截图的话，尽量放全……
 
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/57f816eb1d7c4cadb36b62fb46689c03.gif#pic_center)
 
-16. [Checkbox](./proj16/index.html)
+16. [Checkbox](./small/proj16/index.html)
 
     和 toggle button 一样，如果有 UI 开发的需求会用得到
 
     ![checkbox](img/checkbox.gif)
 
-17. [3D Card](./proj17/index.html)
+17. [3D Card](./small/proj17/index.html)
 
     日常用得到，基本逻辑其实上面都实现过挺多次了
 
     ![3d card](img/3d-card.gif)
 
-18. [Helicopter](./proj18/index.html)
+18. [Helicopter](./small/proj18/index.html)
 
     和自行车一样，炫技之作，不过背景的移动倒是具有一些参考意义，有些情况下可能会用得到
 
     ![helicopter](img/helicopter.gif)
 
-19. [Business Card](./proj19/index.html)
+19. [Business Card](./small/proj19/index.html)
 
     日常……可能用得到……？感觉如果有什么 logo 需要 hover，并且正反内容都不一样的话，确实有可能需要。
 
@@ -286,13 +286,13 @@ gif 截图的话，尽量放全……
 
     上面 border 的笔记：[CSS 的十个高级使用技巧](https://goldenaarcher.blog.csdn.net/article/details/116216232)
 
-20. [Radio Button](./proj20/index.html)
+20. [Radio Button](./small/proj20/index.html)
 
     同 toggle 和 checkbox
 
     ![radio btn](img/radio-btn.gif)
 
-21. [Slide Show](./proj21/index.html)
+21. [Slide Show](./small/proj21/index.html)
 
     ![slide show](img/slide-show.gif)
 
@@ -312,7 +312,7 @@ gif 截图的话，尽量放全……
 
     不~敢~相~信~
 
-22. [Atom Animation](./proj22/index.html)
+22. [Atom Animation](./small/proj22/index.html)
 
     ![atom](img/atom.gif)
 
@@ -320,13 +320,13 @@ gif 截图的话，尽量放全……
 
     另外就是，如果要做正方/正圆，可以定义高度之后使用 `aspect-ration: 1;` 进行实现
 
-23. [Button](./proj23/index.html)
+23. [Button](./small/proj23/index.html)
 
     ![button](img/button.gif)
 
     和其他的 UI 功能需求相似
 
-24. [Hamburger Menu2](./proj24/index.html)
+24. [Hamburger Menu2](./small/proj24/index.html)
 
     日常可能用得到，不过如果使用 UI 库的话有一定概率 navbar 是覆盖内容
 
@@ -338,7 +338,7 @@ gif 截图的话，尽量放全……
 
     这是另一个效果的直观对比，可以看出来 hamburger icon 的效果是一样的，这里的是一个简化版
 
-25. [Sidebar](./proj25/index.html)
+25. [Sidebar](./small/proj25/index.html)
 
     日常可能用得到，不过如果使用 UI 库的话有一定概率 sidebar 是覆盖内容
 
@@ -382,7 +382,7 @@ gif 截图的话，尽量放全……
 
     这个负载度在这个半成品系列中算是比较高的了，顺便感叹下，在 yt 上刷新的 css 教程果然……还蛮新的……
 
-26. [Flower](./proj26/index.html)
+26. [Flower](./small/proj26/index.html)
 
     用不太到，但是思路挺有趣的，如果想要更加自然一点的效果，可以不同花瓣使用 z-index 调整一下，或者看看能不能用 pseudo-element 增加点锯齿/大小。当然，本身效果就挺自然的，自然界的花朵同一朵花上的花瓣其实真说起来差异不是特别大
 
@@ -404,19 +404,19 @@ gif 截图的话，尽量放全……
 
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/99bfe9e7a6474992b4a56c6a48d8c4f9.png)
 
-27. [Navbar](./proj27/index.html)
+27. [Navbar](./small/proj27/index.html)
 
     ![navbar2](img/navbar2.gif)
 
     日常可能用得到，思路比较巧妙的 navbar，适用于个人项目或者特质化项目，一般情况下 UI 库应该是会包括这个功能了
 
-28. [Navigation 2](./proj28/index.html)
+28. [Navigation 2](./small/proj28/index.html)
 
     ![navbar2](img/navbar3.gif)
 
     同上
 
-29. [dropdown](./proj29/index.html)
+29. [dropdown](./small/proj29/index.html)
 
     实用性同其他的 UI 组件一样
 
@@ -441,7 +441,7 @@ gif 截图的话，尽量放全……
 
     如果验货一方完全不懂技术，这个还是可以操作的，但是如果上一些 automated test 的话，可能会有点问题
 
-30. [navigation](./proj30/index.html)
+30. [navigation](./small/proj30/index.html)
 
     ![navigation](img/navigation.gif)
 
@@ -455,7 +455,7 @@ gif 截图的话，尽量放全……
 
     这也是一个相对而言比较新，但是以前没接触过的 CSS3 的知识点。
 
-31. [animated earth](./proj32/index.html)
+31. [animated earth](./small/proj32/index.html)
 
     ![earth](img/earth.gif)
 
@@ -471,7 +471,7 @@ gif 截图的话，尽量放全……
 
       这里主要同时应用了外部和内部的，并且内部的 inset 是用了亮色，形成了明暗对比
 
-32. [grid menu](./proj32/index.html)
+32. [grid menu](./small/proj32/index.html)
 
     完成布局后大概这样：
 
@@ -512,7 +512,7 @@ gif 截图的话，尽量放全……
 
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/fa0ce6982b6c47b1a8fbba8d600eb6bb.png)
 
-33. [profile card](./proj33/index.html)
+33. [profile card](./small/proj33/index.html)
 
     效果如下：
 
@@ -520,13 +520,13 @@ gif 截图的话，尽量放全……
 
     和之前的一些 UI 库差不太多，实现部分也写了挺多遍的了
 
-34. [countdown](./proj34/index.html)
+34. [countdown](./small/proj34/index.html)
 
     ![countdown](img/countdown.gif)
 
     没什么特别复杂的 CSS 逻辑，这里主要用的是 JS 去控制时间的变化，然后将 `Days` 这些字添加到 attributes 里，CSS 中通过 `attr` 获得即可。
 
-35. [calendar](./proj35/index.html)
+35. [calendar](./small/proj35/index.html)
 
     ![calendar](img/calendar.gif)
 
@@ -534,13 +534,13 @@ gif 截图的话，尽量放全……
 
     JS 实现上挺有趣的，获取当月日历这个没什么大问题，获取上个月的日历是通过获取上个月最后一天在星期几，然后做一个 `i--` 的循环。下个月则是获取下个月第一天在星期几，做一个 `i++` 实现。
 
-36. [ball animation](./proj36/index.html)
+36. [ball animation](./small/proj36/index.html)
 
     ![在这里插入图片描述](img/ball-anim.gif)
 
     主要也是对 animation 的学习，小球的形变是通过 `scale` 实现的
 
-37. [Form with Validation](./proj37/index.html)
+37. [Form with Validation](./small/proj37/index.html)
 
     ![form with validation](img/form-with-validation.gif)
 
@@ -552,7 +552,7 @@ gif 截图的话，尽量放全……
 
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/cde6558be0564d99920cdffb6c240eac.png)
 
-38. [Social Icons Slideshow](./proj38/index.html)
+38. [Social Icons Slideshow](./small/proj38/index.html)
 
     和之前做的 slideshow 差不多：
 
@@ -562,7 +562,7 @@ gif 截图的话，尽量放全……
 
     icon 的出现和消失则是使用 CSS 进行控制的，没有什么特别大的难点。
 
-39. [Circle Progress Bar](./proj39/index.html)
+39. [Circle Progress Bar](./small/proj39/index.html)
 
     ![progress bar](img/progressbar.gif)
 
@@ -580,13 +580,13 @@ gif 截图的话，尽量放全……
 
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/5086c707cb5c4501a6225d8308004906.gif#pic_center)
 
-40. [Ripple Button](./proj40/index.html)
+40. [Ripple Button](./small/proj40/index.html)
 
     ![ripple](img/ripple.gif)
 
     这个特效的实现也挺有意思的，主要是通过 JS 的 `mouseenter` 和 `mouseleave`。在 `mouseenter` 的时候，获取当前鼠标所在的位置，创建一个新的背景颜色，过渡使用 animation 完成。在 `mouseleave` 的时候，将该背景颜色从 DOM 中移除。
 
-41. [Loader](./proj41/index.html)
+41. [Loader](./small/proj41/index.html)
 
     这里做了 3 个 loader 的特效，实用性都是有的，不过具体也看 UI 风格：
 
@@ -598,25 +598,25 @@ gif 截图的话，尽量放全……
 
     主要都是使用 animation+scale+animation-delay+opacity 的变化
 
-42. [又一个 navbar](./proj42/index.html)
+42. [又一个 navbar](./small/proj42/index.html)
 
     ![navbar another](img/navbar-another.gif)
 
     之前写过差不多的吧，还有其实我觉得这个特效没有特别好看，过渡还是有点奇怪……
 
-43. [又一个 landing page](./proj43/index.html)
+43. [又一个 landing page](./small/proj43/index.html)
 
     ![landing animated](img/landing-anim.gif)
 
     同样也是二段式的 animation，这里背景的变化用了 clip-path，之前也有介绍过，现在的网站可以拖拽最后获取 clip-path 的角度。
 
-44. [clock](./proj44/index.html)
+44. [clock](./small/proj44/index.html)
 
     ![clock](img/clock.gif)
 
     主要靠 JS 调整时间，其他的 CSS 没什么难度
 
-45. [Jumping Square](./proj45/index.html)
+45. [Jumping Square](./small/proj45/index.html)
 
     ![jumping square](img/jumping-square.gif)
 
@@ -624,25 +624,25 @@ gif 截图的话，尽量放全……
 
     square 的效果主要就是 `translateY` + `rotateZ` 做的，两边的支柱也差不多
 
-46. [Search Bar](./proj46/index.html)
+46. [Search Bar](./small/proj46/index.html)
 
     ![search bar](img/search-bar.gif)
 
     也是比较简单的 animation，稍稍有点花哨，一般来说水平出现就行了吧
 
-47. [3D Form](./proj47/index.html)
+47. [3D Form](./small/proj47/index.html)
 
     ![3d form](img/3d-form.gif)
 
     这个特效属于是 3D card 的进阶版了
 
-48. [invisible card](./proj48/index.html)
+48. [invisible card](./small/proj48/index.html)
 
     ![invisible card](img/invisible-card.gif)
 
     之前写的也挺多了，主要就是用位移(`position: absolute` + `overflow: hidden` + `top` 的变化) 和 transition 结合。这里的卡片依旧使用 `border` 和 `box-shadow` 实现
 
-49. [signup form](./proj49/index.html)
+49. [signup form](./small/proj49/index.html)
 
     ![sign up form](img/signup-form.gif)
 
@@ -650,7 +650,7 @@ gif 截图的话，尽量放全……
 
     很多转换是用 JS 实现的，这也就是为什么这个页面相对而言能够实现的比较复杂的原因。
 
-50. [profile cards](./proj50/index.html)
+50. [profile cards](./small/proj50/index.html)
 
     ![profile cards](img/profile-cards.gif)
 
@@ -682,7 +682,7 @@ gif 截图的话，尽量放全……
 
     光标跳动的效果也是通过 animation+background-color 的修改实现，不断从 `#fff` 到 `transparent` 的跳动就可以实现忽明忽暗的特效
 
-51. [slideshow cities](./proj51/index.html)
+51. [slideshow cities](./small/proj51/index.html)
 
     ![slideshow](img/slideshow-cities.gif)
 
@@ -736,7 +736,7 @@ gif 截图的话，尽量放全……
     }
     ```
 
-52. [3d hamburger menu](./proj52/index.html)
+52. [3d hamburger menu](./small/proj52/index.html)
 
     这个特效有点多，简单的就是之前写的几个整合，包括：
 
@@ -750,7 +750,7 @@ gif 截图的话，尽量放全……
 
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/e19a711f6a8c44f787b5f71734aae6aa.png)
 
-53. [3d cube](./proj53/index.html)
+53. [3d cube](./small/proj53/index.html)
 
     ![3d cube](img/3d-cube.gif)
 
@@ -782,3 +782,5 @@ gif 截图的话，尽量放全……
     ![在这里插入图片描述](https://img-blog.csdnimg.cn/06539ac0aaf649e69cf1c3f5a6583867.png)
 
     其他的 3d 动画都和之前写的差不多了
+
+## Responsive
